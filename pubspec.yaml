@@ -30,31 +30,23 @@ environment:
 dependencies:
   cloud_firestore: ^4.5.0
   cupertino_icons: ^1.0.2
-  # dots_indicator Permet de mettre des points d'indications utilisés pour les sliders par exemple
   dots_indicator: ^2.1.0
   firebase_auth: ^4.4.0
-
-  # Inciter les utilisateurs actifs à utiliser toutes les fonctionnalités de l'application en leur envoyant des messages
+  firebase_core: ^2.9.0
   firebase_in_app_messaging: ^0.7.1
-  # A peu pres la meme chose que firebase_in_app_messaging
   firebase_messaging: ^14.4.0
   firebase_storage: ^11.1.0
   flutter:
     sdk: flutter
-  # Ce sont les Sliders (caroussels)
   flutter_swiper: ^1.1.6
+  get: ^4.6.5
   google_sign_in: ^6.1.0
   image_picker: ^0.8.7+1
-  # Connaitre la localisation du device
   location: ^4.4.0
   path_provider: ^2.0.14
-  # Demander la permission pour la location, contact, camera, stockage ou autre
   permission_handler: ^10.2.0
-  # Permet de zoomer une image, faire des gallery d'images, etc....
   photo_view: ^0.14.0
-  # support natif des crashs (pour Android et iOS), la santé des versions, la mise en cache hors ligne et plus encore
   sentry: ^7.4.1
-  # Lien de type navigateur
   uni_links: ^0.5.1
 
 dev_dependencies:
