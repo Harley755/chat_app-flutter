@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "550678195221",
+    "project_id": "tango-chat-7a8e8",
+    "storage_bucket": "tango-chat-7a8e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550678195221:android:8dcc2cd05045dc629a721c",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550678195221-13tei2jc5t0scuorhold3lqs4f9milm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWLHRPY81d59Eqz-c8vGKeomdag2r0dWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550678195221-13tei2jc5t0scuorhold3lqs4f9milm7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "550678195221-1m3jn44ojfjb850a2ukht7nc7hsu7b7t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
