@@ -1,4 +1,6 @@
 import 'package:chat_app/common/routes/names.dart';
+import 'package:chat_app/pages/welcome/bindings.dart';
+import 'package:chat_app/pages/welcome/view.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
@@ -9,28 +11,27 @@ class AppPages {
   static List<String> history = [];
 
   static final List<GetPage> routes = [
-    /* GetPage(
+    GetPage(
       name: AppRoutes.INITIAL,
-      page: () => WelcomePage(),
+      page: () => const WelcomePage(),
       binding: WelcomeBinding(),
-      middlewares: [RouteWelcomeMiddleware(priority: 1)],
-    ), */
+    ),
     /* GetPage(
       name: AppRoutes.SIGN_IN,
       page: () => SignInPage(),
       binding: SignInBinding(),
-    ), */
+    ), 
 
     // CHECK IF NEEDED TO LOGIN OR NOT
-    /* GetPage(
+     GetPage(
       name: AppRoutes.Application,
       page: () => ApplicationPage(),
       binding: ApplicationBinding(),
       middlewares: [RouteAuthMiddleware(priority: 1)],
-    ), */
+    ), 
 
     // PAGES
-    /* GetPage(
+     GetPage(
       name: AppRoutes.Contact,
       page: () => ContactPage(),
       binding: ContactBinding(),
