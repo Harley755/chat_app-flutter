@@ -7,7 +7,10 @@ class WelcomePage extends GetView<WelcomeController> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return const Scaffold(
+      body: Center(
+        child: Text("First page"),
+      ),
+    );
   }
 }

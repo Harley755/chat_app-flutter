@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       initialRoute: AppPages.INITIAL,
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      getPages: AppPages.routes,
     );
   }
 }
