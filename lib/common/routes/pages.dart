@@ -1,6 +1,5 @@
 import 'package:chat_app/common/routes/names.dart';
-import 'package:chat_app/pages/welcome/bindings.dart';
-import 'package:chat_app/pages/welcome/view.dart';
+import 'package:chat_app/pages/welcome/index.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
