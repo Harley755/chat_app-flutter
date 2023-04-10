@@ -1,7 +1,9 @@
 import 'package:chat_app/common/routes/names.dart';
-import 'package:chat_app/pages/welcome/index.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
+
+import 'package:chat_app/pages/welcome/index.dart';
+import 'package:chat_app/pages/sign_in/index.dart';
 
 class AppPages {
   static const INITIAL = AppRoutes.INITIAL;
@@ -15,14 +17,15 @@ class AppPages {
       page: () => const WelcomePage(),
       binding: WelcomeBinding(),
     ),
-    /* GetPage(
+
+    GetPage(
       name: AppRoutes.SIGN_IN,
-      page: () => SignInPage(),
+      page: () => const SignInPage(),
       binding: SignInBinding(),
-    ), 
+    ),
 
     // CHECK IF NEEDED TO LOGIN OR NOT
-     GetPage(
+    /* GetPage(
       name: AppRoutes.Application,
       page: () => ApplicationPage(),
       binding: ApplicationBinding(),

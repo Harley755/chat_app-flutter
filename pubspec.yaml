@@ -30,28 +30,33 @@ environment:
 dependencies:
   cloud_firestore: ^4.5.0
   cupertino_icons: ^1.0.2
-  # Permet de mettre des points d'indications utilisés pour les sliders par exemple
+  device_info_plus: ^8.1.0
   dots_indicator: ^2.1.0
   firebase_auth: ^4.4.0
   firebase_core: ^2.9.0
-  # Inciter les utilisateurs actifs à utiliser toutes les fonctionnalités de l'application en leur envoyant des messages
   firebase_in_app_messaging: ^0.7.1
-  # A peu pres la meme chose que firebase_in_app_messaging
   firebase_messaging: ^14.4.0
   firebase_storage: ^11.1.0
   flutter:
     sdk: flutter
+  flutter_cupertino_localizations: null
   flutter_screenutil: ^5.7.0
+  flutter_spinkit: ^5.1.0
   flutter_swiper: ^1.1.6
   get: ^4.6.5
   google_sign_in: ^6.1.0
   image_picker: ^0.8.7+1
+  intl: null
+  loading_animations: ^2.2.0
   location: ^4.4.0
+  package_info_plus: ^3.0.3
   path_provider: ^2.0.14
   permission_handler: ^10.2.0
   photo_view: ^0.14.0
   sentry: ^7.4.1
   uni_links: ^0.5.1
+  webview_flutter: ^4.0.7
+  shared_preferences: ^2.1.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0
